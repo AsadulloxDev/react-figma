@@ -1,0 +1,41 @@
+.section-card2-h2{
+    font-family: Yellowtail , sans-serif;
+}
+.section-card1-h2{
+    font-family: Yellowtail , sans-serif;
+}
+.section-card1{
+    position: relative;
+}
+.section-card2{
+    position: relative;
+}
+.section-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    gap: 20px;
+}
+.section-img{
+    border-radius: 20px;
+}
+.section-card-items{
+    position: absolute;
+    top: 100px;
+    left: 40px;
+    font-size: 25px;
+    color: #fff;
+}
+.section-card2-items{
+    position: absolute;
+    top: 100px;
+    left: 40px;
+    font-size: 25px;
+}
+.section-card2-h2{
+    color: #7EB693;
+}
+.section-card2-h1{
+    color: #274C5B;
+}

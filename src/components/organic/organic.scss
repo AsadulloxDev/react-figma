@@ -1,0 +1,50 @@
+.org{
+    margin-top: 200px;
+    display: flex;
+    gap: 10px;
+}
+.org-img{
+    width: 495px;
+}
+.org-btn{
+   width: 250px;
+   height: 60px;
+   background: #274C5B;
+   border: none;
+   border-radius: 10px;
+   color: #fff;
+   font-size: 18px;
+   position: absolute;
+   top: 210px;
+   left: 120px;
+   z-index: 2;
+   transform: scale(0);
+}
+.org-btn:hover{
+    background: #fff;
+    color:#274C5B ;
+}
+.org-card{
+    position: relative;
+}
+.org-card:hover{
+    .org-btn{
+        transition: all 0.5s ease;
+        transform: scale(1);
+    }
+    .org-card-box{
+        transform: scale(1);
+    }
+}
+.org-card-box{
+    width: 495px;
+    height: 473px;
+    background: #274C5B;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    opacity: 50%;
+    transform: scale(0);
+}

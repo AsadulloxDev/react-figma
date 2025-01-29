@@ -1,0 +1,50 @@
+.service{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+.service-card{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.service-img{
+    width: 800px;
+}
+.service-h1{
+    font-family: yellowtail ,sans-serif;
+    color: #7EB693;
+}
+.service_h1{
+    color: #274C5B;
+    font-size: 50px;
+}
+.service-title{
+    color: #525C60;
+    margin-top: 10px;
+    font-family: Open Sans ,sans-serif;
+}
+.service-card-h1{
+    margin-top: 10px;
+    color: #274C5B;
+    font-size: 28px;
+    font-weight: bold;
+}
+.service-card-title{
+    color: #525C60;
+    font-family: Open Sans , sans-serif;
+}
+.service-btn{
+    width: 140px;
+    height: 46px;
+    margin-top: 20px;
+    border: none;
+    background: #274C5B;
+    color: #fff;
+    border-radius: 5px;
+    font-size: 17px;
+}
+.service-btn:hover{
+    background: #274c5bb0;
+    transition: all 0.5s ease;
+}
