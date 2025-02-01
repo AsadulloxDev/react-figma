@@ -2,7 +2,7 @@ import React from 'react'
 import "../../components/header/header.scss"
 import logo from "../../assets/logo.svg"
 import { FaSearch } from "react-icons/fa";
-import bgimg from "../../assets/image.png"
+import bgimg from "../../assets/Image.png"
 function Header() {
   return (
     <header className='header'>
