@@ -1,7 +1,7 @@
 import React from 'react'
 import "../../components/service/service.scss"
 import Photo from "../../assets/Photo.png"
-import vegan from "../../assets/Vegan.svg"
+import vegan from "../../assets/vegan.svg"
 import mail from "../../assets/mail.svg"
 function Service() {
     return (
